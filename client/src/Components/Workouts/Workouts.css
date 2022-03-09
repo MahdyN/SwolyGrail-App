@@ -1,0 +1,53 @@
+.workouts {
+    text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.workout-box {
+    width: 1400px;
+    min-height: 1000px;
+    margin: 6% auto;
+    background: #0088A9;
+    padding: 5px;
+    border-style: double;
+    border-color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.day-header {
+    text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.workout-list {
+    list-style: none;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+.workout-list li {
+    /* display: inline-block; */
+    padding: 7px 15px;
+    text-shadow: 0 0 2px #FFD700;
+    justify-content: space-evenly;
+}
+
+.workout-list li a:link {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.workout-list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.workout-list li a:hover {
+    color: #FFD700
+}

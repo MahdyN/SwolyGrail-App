@@ -1,0 +1,64 @@
+.nav-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-right: 125px;
+    text-shadow: 0 0 2px #FFD700;
+    
+}
+
+.nav-header a:link {
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.nav-header h1 {
+    color: #FFD700;
+    text-shadow: 0 0 5px #0088A9;
+}
+
+.nav-links li a:link, .nav-header button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088A9;
+}
+
+.nav-links li a p:hover {
+    color: #0088A9;
+}
+
+.nav-links li a.active {
+    color: #0088A9;
+}
+
+.nav-header button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0 0 2px #FFD700;
+}
+
+.nav-header button:hover {
+    background-color: rgba(0,136,169,0.8);
+}

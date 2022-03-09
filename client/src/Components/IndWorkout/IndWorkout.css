@@ -1,0 +1,29 @@
+.ind-workout-header-day {
+    text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.ind-workout-box {
+    width: 750px;
+    min-height: 650px;
+    margin: 6% auto;
+    background: #0088A9;
+    padding: 5px;
+    border-style: double;
+    border-color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ind-workout-header{
+    text-align: center;
+    text-shadow: 0 0 2px #FFD700;
+    padding-bottom: 50px;
+}
+
+.ind-workout-desc {
+    padding-bottom: 50px;
+    text-shadow: 0 0 2px #FFD700;
+}

@@ -1,0 +1,77 @@
+.ind-ex-header {
+    text-align: center;
+    text-shadow: 0 0 2px #FFD700;
+    padding-bottom: 50px;
+}
+
+.ind-ex-header-group {
+    text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.ind-ex-box {
+    width: 750px;
+    min-height: 650px;
+    margin: 6% auto;
+    background: #0088A9;
+    padding: 5px;
+    border-style: double;
+    border-color: #FFD700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ind-ex-desc {
+
+    padding-bottom: 50px;
+    text-shadow: 0 0 2px #FFD700;
+}
+
+.ind-ex-desc-vid {
+    align-items: center;
+}
+
+.form-toggle {
+    padding: 9px 25px;
+    background-color:rgba(255,215,0,1);
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0 0 8px black;
+    margin-top: 15px
+}
+
+.form-toggle:hover{
+    background-color: rgba(255,215,0,0.9);
+}
+
+.workout-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.workout-form form select, .workout-form form select option, .workout-form form input{
+    color: black;
+    padding:5px;
+}
+
+.workout-form-submit {
+    padding: 9px 25px;
+    background-color:rgba(255,215,0,1);
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0 0 8px black;
+}
+
+.workout-form-submit:hover{
+    background-color: rgba(255,215,0,0.9);
+}
+
