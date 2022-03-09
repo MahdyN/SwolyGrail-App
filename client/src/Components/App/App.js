@@ -70,7 +70,7 @@ function App() {
         <Routes>
 
           <Route path = '/' element = {<Home />} />
-          <Route path = '/home' element = {<Home />} />
+          <Route path = '/home' element = {<Home user = {user} />} />
           <Route path = '/all_exercises' element = {<Exercises exercises = {exercises}  />} />
           <Route path = '/my_workouts' element = {<Workouts userWorkouts={userWorkouts} workoutError = {workoutError} isAuth = {isAuth} user ={user}/>} />
           <Route path = '/about' element = {<About/>} />

@@ -1,3 +1,11 @@
 #about {
     text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+#about-text {
+    text-align: center;
+    text-shadow: 0 0 5px #FFD700;
+    font-size: larger;
+    margin: 2% auto;
 }

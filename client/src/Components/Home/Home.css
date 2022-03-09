@@ -1,3 +1,21 @@
 #home {
     text-align: center;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+#image-box {
+    align-items: center;
+    width: 750px;
+    height: 503px;
+    margin: 2% auto;
+    background: #0088A9;
+    padding: 0px;
+    border-style: double;
+    border-color: #FFD700;
+}
+
+#home-text{
+    text-align: center;
+    text-shadow: 0 0 5px #FFD700;
+    font-size: larger;
 }
